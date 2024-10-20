@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.O.S Cartório v0.1.0 (BETA)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="headersos"><h1>S.O.S Cartório v0.1.0 (BETA)</h1></div>
+    <div class="principalsos">
+    <label for="options">Escolha o tipo de ocorrência a ser gerado:</label>
+    <select id="options">
+        <option value="">Selecione uma opção</option>
+        <option value="form1">Guia de Remoção de Cadáver</option>
+        <option value="form2">Em construção</option>
+        <option value="form3">Em breve</option>
+    </select>
+
+    <div id="form-container"></div>
+
+    <div id="result-container" style="display:none;">
+        <h2>Resultado</h2>
+        <span id="result-text"></span>
+        <p id="instructions"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

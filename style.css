@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px!important;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    font-size: 32px;
+    border: 5px solid #2d2d2d;
+    background-color: #facf35;
+    margin-bottom: 10px!important;
+    margin-top: 10px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#form-container {
+    margin-top: 20px;
+}
+h1 {
+    margin: 0px;
+    font-size: 24px;
+}
+
+.headersos {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.principalsos {
+    margin-left: 20px;
+}
+
+label[for="options"] {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700!important;
+}
+select#options {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}

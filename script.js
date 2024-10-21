@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <span color="red"><strong>APÓS CLICAR EM ENVIAR, A PEÇA SERÁ PRODUZIDA, BASTANDO COPIAR E COLAR NO SCO. SE NECESSÁRIO, FAÇA SUAS EDIÇÕES ANTES DE GRAVAR.</strong></span><br><form id="form1">
                 <label for="input1ima">Destinatário (nome da pessoa ou função):</label>
                 <input type="text" id="input1ima" name="input1ima" placeholder="Responsável pelo Condomínio Leblon Ocean" required><br>
-            <font size="10"><i>Na falta de uma forma melhor de se referir ao destinatário, utilize algo como "Responsável pelo edifício localizado na Rua Barão da Torre, 255"</i></font>
+            <font size="1"><i>Na falta de uma forma melhor de se referir ao destinatário, utilize algo como "Responsável pelo edifício localizado na Rua Barão da Torre, 255"</i></font>
                 <br>
                 <label for="input2ima">Você deseja imagens de qual área específica? ("da calçada"/"da recepção"/"da portaria e do depósito"/etc)</label>
                 <input type="text" id="input2ima" name="input2ima" placeholder="da calçada" required><br>

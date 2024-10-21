@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0px!important;
+    background-image: url(https://img.freepik.com/free-vector/sheriff-badge-seamless-pattern_1284-46804.jpg);
 }
 
 label {
@@ -37,7 +38,7 @@ button:hover {
 }
 
 #form-container {
-    margin-top: 20px;
+    padding: 10px;
 }
 h1 {
     margin: 0px;
@@ -54,16 +55,29 @@ h1 {
 }
 
 .principalsos {
-    margin-left: 20px;
+    margin: 0% 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #dddddd;
+    background-color: white;
 }
 
 label[for="options"] {
     text-align: center;
     font-size: 21px;
     font-weight: 700!important;
+    color: white;
 }
 select#options {
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+.headeroptions {
+    background-color: #0e346b;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0% 5%;
+    border-bottom: 2px solid #ffca00;
 }

@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px!important;
+    background-image: url(https://img.freepik.com/free-vector/sheriff-badge-seamless-pattern_1284-46804.jpg);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    font-size: 32px;
+    border: 5px solid #2d2d2d;
+    background-color: #facf35;
+    margin-bottom: 10px!important;
+    margin-top: 10px;
+    color: black;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button {
+    margin-top: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#form-container {
+    padding: 10px;
+}
+h1 {
+    margin: 0px;
+    font-size: 24px;
+    font-family: impact;
+    font-weight: 200;
+}
+
+.headersos {
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.principalsos {
+    margin: 0% 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-left: 1px solid #e3e3e3;
+    border-right: 1px solid #dddddd;
+    background-color: white;
+    min-height: 840px;
+    box-shadow: 0px 11px 9px 1px #141414;
+    padding-bottom: 15px;
+}
+
+label[for="options"] {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 700!important;
+    color: white;
+}
+select#options {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.headeroptions {
+    background-color: #092143;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 0% 5%;
+    border-bottom: 2px solid #ffca00;
+}
+.headersos span {
+    text-align: right!important;
+    display: block;
+    margin-right: 7px;
+    font-size: 10px;
+}
+div#result-container {
+    border: 2px solid #ededed;
+    border-radius: 15px;
+    padding: 15px;
+    text-align: justify;
+}

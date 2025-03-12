@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S.O.S Cartório v1.0 (BETA)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="headersos"><h1>S.O.S Cartório v1.0 (BETA)</h1><span>versão 1.0, desenvolvido por Pedro Thiago de França e Silva (14ª DP)</span></div>
+    <div class="headeroptions"><label for="options">Escolha o tipo de ocorrência a ser gerado:</label>
+    <select id="options">
+        <option value="">Selecione uma opção</option>
+        <option value="form1">Requisição de Imagens de Câmera</option>
+        <option value="form3">Requisição de Dados Cadastrais - Pix golpista Pessoa Física</option>
+        <option value="form4">Requisição de Dados Cadastrais - Pix golpista Pessoa Jurídica</option>
+        <option value="form5">Requisição de Dados Cadastrais - Número telefônico</option>
+        <option value="form8">Requisição de Dados Cadastrais - Golpe com Maquininha</option>
+        <option value="form2">Inf Investigação - Ligação para vítima que não quer representar</option>
+        <option value="form6">Inf Investigação - Suspensão após gerar ofícios</option>
+        <option value="form7">Inf Investigação - Suspensão após intimação ignorada</option>
+        
+    </select></div>
+    <div class="principalsos">
+    <div id="form-container"></div>
+
+    <div id="result-container" style="display:none;">
+        <h2>Resultado</h2>
+        <span id="result-text"></span>
+        <p id="instructions"></p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
